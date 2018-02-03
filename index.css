@@ -1,0 +1,76 @@
+a {
+    color: firebrick;
+}
+.wishimg {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trh {
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+.tr {
+    color: inherit;
+    background-color: inherit;
+}
+.tr:hover{
+    color: darkred;
+    background-color: grey;
+}
+
+.midt {
+    text-align: right;
+}
+
+tr {
+    width: 100%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px 20px 5px 20px;
+}
+
+body {
+    font-size: 30px;
+    color: red;
+    background-color: black;
+}
+
+.price {
+    text-align: right;
+    padding: 0;
+}
+
+.euro {
+    padding: 0;
+}
+
+
+
+table {
+    border: none;
+    border-collapse: collapse;
+    width: 100%
+}
+::selection {
+    color: black;
+    background-color: red;
+}
+.n1 {
+    color: gold;
+    background-color: black;
+    
+}
+.n1 a {
+    color: darkgoldenrod
+}
+.n1:hover {
+    color: yellow;
+    background-color: darkgrey;
+}
